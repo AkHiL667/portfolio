@@ -3,8 +3,8 @@ import Akhil from "../images/Akhil.jpg";
 
 function Hero() {
   return (
-    <div className="dark:bg-zinc-900 sm:px-10 h-screen flex flex-col md:flex-row sm:justify-center sm:items-center sm:gap-[10vw]  h-full w-full ">
-       <div className="hidden md:flex top-[40%] left-[5%] z-10 cursor-pointer flex gap-4 flex-col bg-zinc-100 rounded-lg p-4">
+    <div className="dark:bg-zinc-900  pt-19 md:pt-0 pl-4 sm:pr-10 h-screen flex flex-col md:flex-row sm:justify-center sm:items-center sm:gap-[10vw]  h-full w-full ">
+       <div className="absolute sm:hidden md:hidden xl:flex top-20 left-2 xl:flex md:order-1 order-3 md:flex md:top-[40%] md:left-[5%] z-10 cursor-pointer flex gap-4 flex-col-reverse md:bg-zinc-100 rounded-lg p-4">
         <a
           href="https://www.instagram.com/akhil_129_/"
           className="instalogo hover:text-red-500  cursor-pointer transition-all duration-300"
@@ -29,8 +29,8 @@ function Hero() {
         >
           <i className="ri-linkedin-fill text-3xl"></i>
         </a>
-      </div>
-      <div>
+      </div >
+      <div className="p-5 md:p-0 md:order-2 order-2">
         <h1 className="text-6xl font-bold">
           Akhil
           <span
@@ -111,11 +111,11 @@ function Hero() {
           ></div>
           <h2 className="text-lg m-0">Frontend Developer</h2>
         </div>
-        <p className="text-md text-gray-500 max-w-xl">I'm a focused frontend developer based in Hyderabad, dedicated to building smooth, interactive, and visually engaging web experiences.</p>
-        <button className="bg-black sm:mt-10 cursor-pointer active:scale-95 transition-all duration-300 text-white px-4 py-2 rounded-lg">Resume<i className="ri-download-line ml-2"></i></button>
+        <p className="text-sm sm:text-md text-gray-500 max-w-xl">I'm a focused frontend developer based in Hyderabad, dedicated to building smooth, interactive, and visually engaging web experiences.</p>
+        <button className="mt-9 bg-black sm:mt-10 cursor-pointer active:scale-95 transition-all duration-300 text-white px-4 py-2 rounded-lg">Resume<i className="ri-download-line ml-2"></i></button>
       </div>
-      <div>
-        <img className="hero-image object-cover" src={Akhil} alt="Akhil" />
+      <div className="md:order-3 pl-16 md:pl-0 order-1">
+        <img className="hero-image w-[230px] h-[230px] md:w-[300px] md:h-[300px] object-cover" src={Akhil} alt="Akhil" />
       </div>
      
     </div>

@@ -12,13 +12,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.453);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 6px solid rgba(0, 0, 0, 0.267);
-  width: 300px;
-  height: 300px;
+  border: 7px solid rgba(30, 28, 28, 0.601);
   animation: profile-animate 8s ease-in-out infinite 1s;
   box-sizing: border-box;
 }
