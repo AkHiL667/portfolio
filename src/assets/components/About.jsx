@@ -3,8 +3,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-full pt-13 h-[120vh]'>
-     <h1 className='text-4xl font-bold mb-10 text-center'>About</h1>
+    <div className='w-full  pt-13 md:h-[100vh] h-[120vh]'>
+     <h1 className='text-4xl font-bold mb-10 text-center md:mb-30'>About</h1>
      <div className='flex justify-center items-center gap-10 flex-col md:flex-row'>
       <div className='w-[90%] h-fit md:h-[50vh] md:w-[40%] shadow-md rounded-lg p-5 text-center'>
       <h1 className='text-lg font-semibold mb-4'>Skills</h1>
