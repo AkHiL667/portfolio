@@ -37,7 +37,7 @@ function Scrollinfinate() {
   const duplicatedShuffledLogos = [...shuffledLogos, ...shuffledLogos];
 
   const LogoRow = ({ direction, logos }) => (
-    <div className="relative">
+    <div className="relative dark:bg-zinc-900 dark:text-white">
       {/* Left cloud-like gradient overlay */}
       <div className="absolute left-0 top-0 h-full w-1/3 z-10 bg-gradient-to-r from-white dark:from-gray-900 to-transparent pointer-events-none"></div>
       
@@ -66,8 +66,8 @@ function Scrollinfinate() {
   );
 
   return (
-    <div className="marquee-container overflow-hidden group py-4 md:py-6">
-      <div className="mb-3 md:mb-5">
+    <div className="marquee-container overflow-hidden group py-4 md:py-6 dark:bg-zinc-900 dark:text-white">
+      <div className="mb-3  md:mb-5">
         <LogoRow direction="left" logos={duplicatedLogos} />
       </div>
       <div>

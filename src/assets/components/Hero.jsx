@@ -3,8 +3,8 @@ import Akhil from "../images/Akhil.jpg";
 
 function Hero() {
   return (
-    <div className="dark:bg-zinc-900  pt-19 md:pt-0 pl-4 sm:pr-10 h-screen flex flex-col md:flex-row sm:justify-center sm:items-center sm:gap-[10vw]  h-full w-full ">
-       <div className="absolute sm:hidden md:hidden xl:flex top-20 left-2 xl:flex md:order-1 order-3 md:flex md:top-[40%] md:left-[5%] z-10 cursor-pointer flex gap-4 flex-col-reverse md:bg-zinc-100 rounded-lg p-4">
+    <div className="dark:bg-zinc-900 dark:bg-zinc-900 dark:text-white  pt-19 md:pt-0 pl-42m:pr-10 h-screen flex flex-col md:flex-row sm:justify-center sm:items-center sm:gap-[10vw]  h-full w-full ">
+       <div className="absolute dark:bg-zinc-700 dark:text-white sm:hidden md:hidden xl:flex top-20 left-2 xl:flex md:order-1 order-3 md:flex md:top-[40%] md:left-[5%] z-10 cursor-pointer flex gap-4 flex-col-reverse md:bg-zinc-100 rounded-lg p-4">
         <a
           href="https://www.instagram.com/akhil_129_/"
           className="instalogo hover:text-red-500  cursor-pointer transition-all duration-300"
