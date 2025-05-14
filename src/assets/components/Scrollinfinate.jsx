@@ -39,13 +39,13 @@ function Scrollinfinate() {
   const LogoRow = ({ direction, logos }) => (
     <div className="relative dark:bg-zinc-900 dark:text-white">
       {/* Left cloud-like gradient overlay */}
-      <div className="absolute left-0 top-0 h-full w-1/3 z-10 bg-gradient-to-r from-white dark:from-gray-900 to-transparent pointer-events-none"></div>
+      <div className="absolute left-0 top-0 h-full w-1/3 z-10 bg-gradient-to-r from-white dark:from-zinc-900 to-transparent pointer-events-none"></div>
       
       {/* Right cloud-like gradient overlay */}
-      <div className="absolute right-0 top-0 h-full w-1/3 z-10 bg-gradient-to-l from-white dark:from-gray-900 to-transparent pointer-events-none"></div>
+      <div className="absolute right-0 top-0 h-full w-1/3 z-10 bg-gradient-to-l from-white dark:from-zinc-900 to-transparent pointer-events-none"></div>
       
       <Marquee 
-        speed={40} 
+        speed={50} 
         gradient={false}
         pauseOnHover={false}
         direction={direction}

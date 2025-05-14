@@ -24,15 +24,15 @@ function About() {
         <div className='flex flex-col md:mt-10 gap-5'>
         <div className='flex items-center  gap-2'>
         <i className="ri-school-fill text-2xl mb-6"></i>
-            <h2 className='text-md font-semibold leading-none'><span className='text-gray-500 mr-4 text-md'>2019-2021</span> Intermediate <br /> 
-            <span className='text-gray-500 text-xs block mt-1 text-left'>Sai Sri Junior College</span></h2>
+            <h2 className='text-md font-semibold leading-none'><span className='text-gray-500 dark:text-gray-300 mr-4 text-md'>2019-2021</span> Intermediate <br /> 
+            <span className='text-gray-500 dark:text-gray-300 text-xs block mt-1 text-left'>Sai Sri Junior College</span></h2>
           </div>
 
           <div className='w-2px ml-10 h-20px bg-gray-300'></div>
           <div className='flex items-center gap-2'>
             <i className="ri-graduation-cap-fill text-2xl mb-6"></i>
-            <h2 className='text-md font-semibold leading-none'><span className='text-gray-500 mr-4 text-md'>2021-2025</span> Bachelor of Technology<br /> 
-            <span className='text-gray-500 text-xs block mt-1 text-left'>CMR Technical Campus</span></h2>
+            <h2 className='text-md font-semibold leading-none'><span className='text-gray-500 dark:text-gray-300 mr-4 text-md'>2021-2025</span> Bachelor of Technology<br /> 
+            <span className='text-gray-500 dark:text-gray-300 text-xs block mt-1 text-left'>CMR Technical Campus</span></h2>
           </div>
         </div>
       </div>
