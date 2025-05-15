@@ -4,6 +4,7 @@ import delulu from '../images/delulu-ai.png'
 import premier from '../images/premier.png'
 import obys from '../images/obyse.png'
 import rps from '../images/rps.png'
+import shopHub from '../images/shopHub.png'
 
 function Projects() {
   return (
@@ -40,6 +41,13 @@ function Projects() {
           <h1 className='text-2xl mt-5 font-bold'>Rock Paper Scissors </h1>
           <p className='text-sm mb-6'>Developed Rock Paper Scissors game showcasing interactive UI and game logic.</p>
           <a href="https://akhil667.github.io/Rock-Paper-Scissors-Game/" target='_blank' className='bg-black transitions-all duration-300 active:bg-zinc-500 cursor-pointer text-white px-4 py-2 rounded-md'>Play<i class="ri-arrow-right-line ml-2"></i></a>
+        </div>
+
+        <div className='p-5 shadow-lg w-full dark:bg-zinc-700 dark:text-white max-w-[350px]  hover:scale-105 md:hover:translate-y-[-30px] transition-all duration-300 bg-zinc-300 rounded-2xl h-[60vh]'>
+          <img className='w-full h-[60%] object-cover rounded-2xl' src={shopHub} alt="" />
+          <h1 className='text-2xl mt-5 font-bold'>ShopHub </h1>
+          <p className='text-sm mb-6'>Developed a E-commerce website with Redux Toolkit and added filters and cart.</p>
+          <a href="https://shop-hub-redux.vercel.app/" target='_blank' className='bg-black transitions-all duration-300 active:bg-zinc-500 cursor-pointer text-white px-4 py-2 rounded-md'>Demo<i class="ri-arrow-right-line ml-2"></i></a>
         </div>
       </div>
     </div>
