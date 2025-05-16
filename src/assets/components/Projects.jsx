@@ -8,7 +8,7 @@ import shopHub from '../images/shopHub.png'
 
 function Projects() {
   return (
-    <div className='dark:bg-zinc-900 dark:text-white pt-20 md:pt-30 w-full h-[350vh] md:h-[240vh] lg:h-[180vh]'>
+    <div className='dark:bg-zinc-900 dark:text-white pt-20 md:pt-30 w-full h-fit md:h-[240vh] lg:h-[180vh]'>
       <h1 className='text-4xl font-bold text-center'>Projects</h1>
       <div className='flex flex-col dark:bg-zinc-900 dark:text-white md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center justify-items-center w-full max-w-[1200px] mx-auto px-4  mt-20 md:mt-30'>
         <div className='p-5 shadow-lg dark:bg-zinc-700 dark:text-white w-full hover:scale-105 md:hover:translate-y-[-30px] transition-all duration-300 max-w-[350px] bg-zinc-300 rounded-2xl h-[60vh] '>
