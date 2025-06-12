@@ -5,12 +5,19 @@ import premier from '../images/premier.png'
 import obys from '../images/obyse.png'
 import rps from '../images/rps.png'
 import shopHub from '../images/shopHub.png'
+import mixpod from '../images/MixPod.png'
 
 function Projects() {
   return (
-    <div className='dark:bg-zinc-900 dark:text-white pt-20 md:pt-30 w-full h-fit md:h-[240vh] lg:h-[180vh]'>
+    <div className='dark:bg-zinc-900 dark:text-white pt-20 md:pt-30 w-full h-fit md:h-[240vh] lg:h-[240vh]'>
       <h1 className='text-4xl font-bold text-center'>Projects</h1>
       <div className='flex flex-col dark:bg-zinc-900 dark:text-white md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center justify-items-center w-full max-w-[1200px] mx-auto px-4  mt-20 md:mt-30'>
+      <div className='p-5 shadow-lg dark:bg-zinc-700 dark:text-white w-full hover:scale-105 md:hover:translate-y-[-30px] transition-all duration-300 max-w-[350px] bg-zinc-300 rounded-2xl h-[60vh] '>
+          <img className='w-full h-[60%] object-cover rounded-2xl' src={mixpod} alt="" />
+          <h1 className='text-2xl mt-5 font-bold'>MixPod</h1>
+          <p className='text-sm mb-6'>MixPod is a Realtime chat application built with Node.js, Express.js, and Socket.io.</p>
+          <a href="https://mixpod.onrender.com/" target='_blank' className='bg-black cursor-pointer text-white px-4 py-2 rounded-md'>Demo<i class="ri-arrow-right-line ml-2"></i></a>
+        </div>
         <div className='p-5 shadow-lg dark:bg-zinc-700 dark:text-white w-full hover:scale-105 md:hover:translate-y-[-30px] transition-all duration-300 max-w-[350px] bg-zinc-300 rounded-2xl h-[60vh] '>
           <img className='w-full h-[60%] object-cover rounded-2xl' src={cinebyte} alt="" />
           <h1 className='text-2xl mt-5 font-bold'>Cinebyte</h1>

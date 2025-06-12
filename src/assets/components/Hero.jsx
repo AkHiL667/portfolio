@@ -44,7 +44,7 @@ function Hero() {
   });
   
   return (
-    <div className="dark:bg-zinc-900 dark:bg-zinc-900 dark:text-white  pt-19 md:pt-0 pl-42m:pr-10 h-screen flex flex-col md:flex-row sm:justify-center sm:items-center sm:gap-[10vw]  h-full w-full ">
+    <div className="dark:bg-zinc-900 dark:bg-zinc-900 dark:text-white  pt-19 md:pt-0 pl-42m:pr-10 h-screen flex flex-col md:flex-row sm:justify-center sm:items-center sm:gap-[10vw] h-fit md:h-screen w-full ">
        <div className="absolute md:dark:bg-zinc-700 dark:text-white sm:hidden md:hidden xl:flex top-20 left-2 xl:flex md:order-1 order-3 md:flex md:top-[40%] md:left-[5%] z-10 cursor-pointer flex gap-4 flex-col-reverse md:bg-zinc-100 rounded-lg p-4">
         <a
           href="https://www.instagram.com/akhil_129_/"
@@ -154,9 +154,9 @@ function Hero() {
               maxWidth: "70px",
             }}
           ></div>
-          <h2 className="text-lg m-0">Frontend Developer</h2>
+          <h2 className="text-lg m-0">Full Stack Developer</h2>
         </div>
-        <p className="text-sm sm:text-md text-gray-500 max-w-xl">I'm a focused frontend developer based in Hyderabad, dedicated to building smooth, interactive, and visually engaging web experiences.</p>
+        <p className="text-sm sm:text-md text-gray-500 max-w-xl">Full Stack Developer from Hyderabad. I build real-time, interactive, and scalable web apps with clean UI and production-grade functionality.</p>
         <a 
           href="/resume.pdf" 
           download="Akhil_Konda_Resume.pdf"
